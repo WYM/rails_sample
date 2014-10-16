@@ -8,6 +8,15 @@ gem 'sqlite3'
 
 gem 'rspec-rails'
 
+gem 'guard-rspec'
+
+group :development, :test do
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
+
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
