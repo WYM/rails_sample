@@ -31,7 +31,7 @@ gem 'spring',        group: :development
 
 gem 'selenium-webdriver', group: :test
 
-gem 'capybara', group: :test
+gem 'capybara'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
